@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", "Raleway" sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 /* HEADER */
@@ -14,7 +16,7 @@ body {
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
 }
 
@@ -22,10 +24,10 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .nav-list {
@@ -43,30 +45,50 @@ body {
 
 }
 
+.nav-list-unit:hover,
+.nav-list-unit:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
 
 .address-list {
     list-style-type: none;
+
 }
 
 .address-list-mail {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
+
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
 }
 
+.address-list-mail:hover,
+.address-list-mail:focus {
+    color: #404bbf
+}
+
 .address-list-number {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
+
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
-    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.address-list-number:hover,
+.address-list-number:focus {
+    color: #404bbf
 }
 
 /* MAIN */
@@ -78,7 +100,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -87,13 +109,18 @@ body {
 
 .button {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: white;
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+    cursor: pointer;
 }
 
 .takticks {}
@@ -120,23 +147,28 @@ body {
     color: #434455;
 }
 
+.ourteam {
+    background-color: #f4f4fd;
+}
+
 .ourteam-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    text-transform: capitalize;
 }
 
-.ourteam {
-    background-color: #fcfcfc;
-}
-
-.ourteam-list {
+.our-team-list {
     list-style-type: none;
+
+}
+
+.ourteam-list-item {
+    background-color: #ffffff;
 }
 
 .ourteam-list-item-photo {
@@ -171,10 +203,11 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .our-portfolio-list {
@@ -201,6 +234,7 @@ body {
     color: #434455;
 }
 
+/* footer */
 .footer {
     background-color: #2e2f42;
 }
@@ -209,21 +243,22 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-    text-decoration: none;
-}
-
-.logo-path-1 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+}
+
+.logo-path-2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -234,5 +269,3 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
-.resdasd
