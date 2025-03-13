@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
@@ -13,14 +13,14 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
 }
 
-.logo-path-1 {
+.logo-path-firstgi {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -59,7 +59,7 @@ body {
 
 }
 
-.address-list-mail {
+.address-list-unit {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -70,21 +70,13 @@ body {
     text-decoration: none;
 }
 
-.address-list-mail:hover,
-.address-list-mail:focus {
+.address-list-unit:hover,
+.address-list-unit:focus {
     color: #404bbf
 }
 
-.address-list-number {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
+
 
 .address-list-number:hover,
 .address-list-number:focus {
@@ -250,7 +242,7 @@ body {
     text-decoration: none;
 }
 
-.logo-path-2 {
+.logo-path-second {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
